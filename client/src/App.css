@@ -1,0 +1,83 @@
+@import url("./whitespace-reset.css");
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #03045e;
+  background: caf0f8;
+  box-sizing: border-box;
+}
+
+header {
+  background: #03045e;
+  color: #caf0f8;
+  /* font-family: "PT Sans", Arial, Helvetica, sans-serif; */
+  font-size: 40px;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+input {
+  padding: 5px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 35px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.route-container {
+  margin-bottom: 10px;
+}
+
+.route-title {
+  font-size: 18px;
+}
+
+.route-info {
+  font-size: 15px;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #caf0f8;
+  background-color: #0077b6;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  /* box-shadow: 0 2px #999; */
+  /* margin-top: 20px; */
+}
+
+button:hover {
+  background-color: #667292;
+  transition: all .4s ease;
+}
+
+button:active {
+  background-color: #e0876a;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
